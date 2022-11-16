@@ -59,9 +59,9 @@ class MySqli_DB
     }
     if (!$this->query_id)
       // only for Develope mode
-      die("Error en esta consulta :<pre> " . $sql . "</pre>");
+      // die("Error en esta consulta :<pre> " . $sql . "</pre>");
     // For production mode
-    //  die("Error on Query");
+     die("Error on Query");
 
     return $this->query_id;
   }
