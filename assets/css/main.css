@@ -432,6 +432,11 @@ td img.img-thumbnail {
   color: #000;
 }
 
+.list-group {
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
 .profile .jumbotron {
   border-radius: 3px 3px 0 0;
 }
