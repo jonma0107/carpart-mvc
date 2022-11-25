@@ -21,20 +21,11 @@ class MySqli_DB
     if (!$this->con) {
       die(" Database connection failed:" . mysqli_connect_error());
     } else {
-      $select_db = $this->con->select_db('railway');
+      $select_db = $this->con->select_db('jonat5268_carpart2022');
       if (!$select_db) {
         die("Failed to Select Database" . mysqli_connect_error());
       }
     }
-
-    // try {
-    //   $conn = new PDO("mysql:host=DB_HOST;dbname=jonat5268_carpart", DB_USER, DB_PASS);
-    //   // set the PDO error mode to exception
-    //   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    //   echo "Connected successfully";
-    // } catch(PDOException $e) {
-    //   echo "Connection failed: " . $e->getMessage();
-    // }
 
   }
   /*--------------------------------------------------------------*/

@@ -18,15 +18,8 @@ a {
 }
 
 .login-page {
-  width: 350px;
-  margin: 7% auto;
-  padding: 0 20px;
-  background-color: #f9f9f9;
-  border: 1px solid #f2f2f2;
-}
-
-.login-page .text-center {
-  margin-bottom: 10px;
+  display: grid;
+  place-content: center;
 }
 
 .box {
@@ -38,7 +31,7 @@ a {
 .page {
   position: relative;
   display: block;
-  top: 50px;
+  top: 20px;
   left: 0;
   padding: 35px 15px 20px 255px;
   /*carpart*/
@@ -51,6 +44,7 @@ a {
 
 .form-group {
   display: grid;
+  color: #fff;
 }
 
 .form-group .btn {
@@ -60,6 +54,7 @@ a {
   background-color: #000;
   color: #fff;
   max-width: 400px;
+
 }
 
 .bg-green {
@@ -150,7 +145,7 @@ header>.logo {
   text-transform: uppercase;
   letter-spacing: 1px;
   display: inline-block;
-  width: 250px;
+  width: 249px;
   background-color: #000;
 }
 
@@ -342,7 +337,8 @@ table td h6, table tfoot tr td:last-child {
 }
 
 .form-control {
-  color: #646464;
+  color: #000;
+  /* color: #646464; */
   border: 1px solid #e6e6e6;
   border-radius: 3px;
   -webkit-box-shadow: none;
@@ -433,6 +429,7 @@ td img.img-thumbnail {
 
 .list-group-item:first-child, .list-group-item:last-child {
   border-radius: 0;
+  color: #000;
 }
 
 .profile .jumbotron {
@@ -456,7 +453,7 @@ img.img-size-2 {
   background-color: transparent;
 }
 
-img.logo2 {
+img.logo-w {
   padding-top: 20px;
   width: 150px;
 }
@@ -465,12 +462,6 @@ img.logo2 {
   padding-top: 150px;
 }
 
-.container-index {
-  padding: 20px;
-  background-color: #000;
-  border-radius: 30px;
-  margin-right: 250px;
-}
 
 .img_logo {
   max-width: 100px;
@@ -537,4 +528,39 @@ label {
 
 .btn-group .btn+.btn, .btn-group .btn+.btn-group, .btn-group .btn-group+.btn, .btn-group .btn-group+.btn-group {
   margin-left: 0px;
+}
+
+
+.container-fluid {
+  padding: 20px;
+  border-radius: 30px;
+  margin: auto;
+  text-align: center;
+}
+
+.container-index {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  padding: 20px 100px;
+
+  background-color: #000;
+  border-radius: 30px;
+}
+
+
+/*-------------------------------------------------*/
+/*-----------------  RESPONSIVE  ------------------*/
+/*-------------------------------------------------*/
+
+
+
+@media (max-width: 863px) {
+
+  .container-fluid,
+  .table-bordered {
+    overflow-x: hidden;
+  }
+
 }

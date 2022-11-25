@@ -11,7 +11,7 @@ page_require_level(3);
   </div>
 </div>
 <div class="row">
-  <div class="col-md-6">
+  <div class="col-md-12">
     <div class="panel">
       <div class="panel-heading">
 

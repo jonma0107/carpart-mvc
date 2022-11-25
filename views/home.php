@@ -13,7 +13,7 @@ if (!$session->isUserLoggedIn(true)) {
   <div class="col-md-12">
     <div class="panel">
       <div class="jumbotron text-center">
-        <h1>BIENVENIDO!<br> HOY SERÁ UN GRAN DÍA PARA TI.<br> TENDRÁS MUCHAS VENTAS.</h1>
+        <h1>BIENVENIDO!<br> HOY SERÁ UN GRAN DÍA!.<br> TENDRÁS MUCHAS VENTAS.</h1>
 
       </div>
     </div>

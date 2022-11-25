@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css" />
   <link rel="stylesheet" href="../assets/css/main.css?v=<?php echo time(); ?>" />
+  <!-- <link rel="stylesheet" href="../assets/css/main.css"> -->
 
 
 </head>
@@ -21,7 +22,7 @@
 <body>
   <?php if ($session->isUserLoggedIn(true)) : ?>
     <header id="header">
-      <div class="logo pull-left"> <img src="../assets/images/logo2.png" alt="logo" class="logo2"> </div>
+      <div class="logo pull-left"> <img src="../assets/images/logo-w.png" alt="logo" class="logo-w"> </div>
       <div class="header-content">
         <div class="header-date pull-left">
           <strong><?php echo gmdate("d/m/Y  g:i a"); ?></strong>
