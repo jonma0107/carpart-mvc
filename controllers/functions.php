@@ -100,12 +100,10 @@ function read_date($str)
 /*--------------------------------------------------------------*/
 /* Function for  Readable Make date time
 /*--------------------------------------------------------------*/
-
-
 function make_date()
 {
 date_default_timezone_set("America/Bogota");
-$fecha = gmdate('Y-m-d H:i:s');
+$fecha = date('Y-m-d H:i:s');
 return $fecha;
 }
 /*--------------------------------------------------------------*/
