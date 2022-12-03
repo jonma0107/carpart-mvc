@@ -104,7 +104,7 @@ function read_date($str)
 
 function make_date()
 {
-date_default_timezone_get();
+date_default_timezone_set("America/Bogota");
 $fecha = gmdate('Y-m-d H:i:s');
 return $fecha;
 }
