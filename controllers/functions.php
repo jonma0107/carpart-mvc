@@ -106,7 +106,7 @@ function make_date()
 {
 date_default_timezone_get();
 $fecha = gmdate('Y-m-d H:i:s');
-echo $fecha;
+return $fecha;
 }
 /*--------------------------------------------------------------*/
 /* Function for  Readable date time
