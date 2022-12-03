@@ -106,12 +106,12 @@ function make_date()
   // return gmdate("d/m/Y  g:i a");
   // return strftime("%Y-%m-%d %H:%M:%S", time());
 
-  $fmt = new IntlDateFormatter('CO',
+  $fmt = new IntlDateFormatter('MX',
   IntlDateFormatter::FULL,
   IntlDateFormatter::FULL
 );
-$fmt->setPattern("yyyy-MM-dd HH:mm:ss");
-return $fmt->format(time());
+$fmt->setPattern("yyyy-MM-dd HH:mm:ss a");
+echo $fmt->format(time());
 }
 /*--------------------------------------------------------------*/
 /* Function for  Readable date time
