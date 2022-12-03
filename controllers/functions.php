@@ -111,7 +111,7 @@ function make_date()
   IntlDateFormatter::FULL
 );
 $fmt->setPattern("yyyy-MM-dd HH:mm:ss");
-echo $fmt->format(date());// display venerdì 15 apr 2022
+echo $fmt//->format(date()); display venerdì 15 apr 2022
 }
 /*--------------------------------------------------------------*/
 /* Function for  Readable date time
