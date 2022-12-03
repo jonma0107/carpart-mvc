@@ -1,6 +1,6 @@
 {
   "functions": {
-    "carpart-mvc-2022/*.php": {
+    "*.php": {
       "runtime": "vercel-php@0.5.2"
     }
   }
