@@ -110,7 +110,7 @@ function make_date()
   IntlDateFormatter::FULL,
   IntlDateFormatter::FULL
 );
-$fmt->setPattern("%Y-%m-%d %H:%M:%S", time());
+$fmt->setPattern("yyyy.MM.dd HH:mm:ss", time());
 echo $fmt->format(time());// display venerdì 15 apr 2022
 }
 /*--------------------------------------------------------------*/
