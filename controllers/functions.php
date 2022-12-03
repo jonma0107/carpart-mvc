@@ -108,15 +108,20 @@ function make_date()
   // return gmdate("d/m/Y  g:i a");
   // return strftime("%Y-%m-%d %H:%M:%S", time());
 
+date_default_timezone_get();
+$fecha = gmdate('Y-m-d H:i:s');
+return $fecha;
+
+//   $fmt = new IntlDateFormatter('MX',
+//   IntlDateFormatter::FULL,
+//   IntlDateFormatter::FULL
+// );
+// $fmt->setPattern("yyyy-MM-dd HH:mm:ss a");
+// // echo $fmt->format(time());
+// echo $fmt;
 
 
-  $fmt = new IntlDateFormatter('MX',
-  IntlDateFormatter::FULL,
-  IntlDateFormatter::FULL
-);
-$fmt->setPattern("yyyy-MM-dd HH:mm:ss a");
-// echo $fmt->format(time());
-echo $fmt;
+
 }
 /*--------------------------------------------------------------*/
 /* Function for  Readable date time
