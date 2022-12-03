@@ -30,7 +30,8 @@
       <div class="logo pull-left"> <img src="../assets/images/logo-w.png" alt="logo" class="logo-w"> </div>
       <div class="header-content">
         <div class="header-date pull-left">
-          <strong><?php echo gmdate("d/m/Y  g:i a"); ?></strong>
+          <!-- <strong><?php echo gmdate("d/m/Y  g:i a"); ?></strong> -->
+          <strong><?php echo date_header(); ?></strong>
         </div>
         <div class="pull-right clearfix">
           <ul class="info-menu list-inline list-unstyled">

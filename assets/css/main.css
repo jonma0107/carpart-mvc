@@ -48,9 +48,8 @@ a {
 }
 
 .form-group .btn {
-  place-items: center;
-  margin: 0 10px 0 10px;
   /* border-radius: 40px; */
+  margin: auto;
   background-color: #000;
   color: #fff;
   max-width: 400px;
@@ -83,6 +82,12 @@ a {
   margin-bottom: 10px;
   /*carpart*/
 
+}
+
+.panel-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .panel-box {
@@ -448,8 +453,7 @@ td img.img-thumbnail {
 img.img-size-2 {
   width: 125px;
   height: 125px;
-  margin-bottom: 15px;
-  margin-left: 35px;
+  margin: auto;
 }
 
 /***********************************       CARPART       ***************************/
@@ -511,7 +515,7 @@ a.btn.btn-info.pull-right:hover {
 
 
 .panel-body {
-  padding: 0;
+  padding: 10px 30px 20px 30px;
 }
 
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
@@ -553,6 +557,17 @@ label {
   background-color: #000;
   border-radius: 30px;
 }
+
+input.btn.btn-primary.btn-file {
+  margin-right: 50px;
+}
+
+button.btn.btn-info {
+  margin: 15px auto auto auto;
+
+}
+
+
 
 
 /*-------------------------------------------------*/

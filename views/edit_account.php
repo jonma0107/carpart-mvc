@@ -43,22 +43,22 @@ if (isset($_POST['update'])) {
 }
 ?>
 <?php include_once('../business/header.php'); ?>
-<div class="row">
+<div class="row container-fluid">
   <div class="col-md-12">
     <?php echo display_msg($msg); ?>
   </div>
   <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
+        <span class="glyphicon glyphicon-camera"></span>
         <div class="panel-heading clearfix">
-          <span class="glyphicon glyphicon-camera"></span>
-          <span>Cambiar mi foto</span>
+          <span> Cambiar mi foto</span>
         </div>
       </div>
       <div class="panel-body">
         <div class="row">
           <div class="col-md-4">
-            <img class="img-circle img-size-2" src="uploads/users/<?php echo $user['image']; ?>" alt="">
+            <img class="img-circle img-size-2" src="../uploads/users/<?php echo $user['image']; ?>" alt="">
           </div>
           <div class="col-md-8">
             <form class="form" action="edit_account.php" method="POST" enctype="multipart/form-data">

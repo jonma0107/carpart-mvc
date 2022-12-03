@@ -25,10 +25,10 @@ if (isset($_POST['submit'])) {
     <?php echo display_msg($msg); ?>
   </div>
 
-  <div class="col-md-12">
+  <div class="col-md-12 container-fluid">
     <div class="panel panel-default">
       <div class="panel-heading clearfix">
-        <span class="glyphicon glyphicon-camera"></span>
+        <!-- <span class="glyphicon glyphicon-camera"></span> -->
         <span>Lista de imagenes</span>
         <div class="pull-right">
           <form class="form-inline" action="media.php" method="POST" enctype="multipart/form-data">

@@ -126,3 +126,12 @@ function randString($length = 5)
     $str .= $cha[mt_rand(0, strlen($cha))];
   return $str;
 }
+/*--------------------------------------------------------------*/
+/* Function for  Make date time in Header
+/*--------------------------------------------------------------*/
+function date_header()
+{
+date_default_timezone_set("America/Bogota");
+$fecha = date('d/m/Y - H:i A');
+return $fecha;
+}
