@@ -100,18 +100,23 @@ function read_date($str)
 /*--------------------------------------------------------------*/
 /* Function for  Readable Make date time
 /*--------------------------------------------------------------*/
+
+
 function make_date()
 {
   // return date("%Y-%m-%d %H:%M:%S", time());
   // return gmdate("d/m/Y  g:i a");
   // return strftime("%Y-%m-%d %H:%M:%S", time());
 
+
+
   $fmt = new IntlDateFormatter('MX',
   IntlDateFormatter::FULL,
   IntlDateFormatter::FULL
 );
 $fmt->setPattern("yyyy-MM-dd HH:mm:ss a");
-echo $fmt->format(time());
+// echo $fmt->format(time());
+echo $fmt;
 }
 /*--------------------------------------------------------------*/
 /* Function for  Readable date time
