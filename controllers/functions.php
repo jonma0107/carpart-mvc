@@ -106,16 +106,12 @@ function make_date()
   // return gmdate("d/m/Y  g:i a");
   // return strftime("%Y-%m-%d %H:%M:%S", time());
 
-  // Jan 1: results in: '%e%1%' (%%, e, %%, %e, %%)
-$format = '%%e%%%e%%';
-
-// Check for Windows to find and replace the %e
-// modifier correctly
-if (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN') {
-    $format = preg_replace('#(?<!%)((?:%%)*)%e#', '\1%#d', $format);
-}
-
-echo gmdate($format);
+  $fmt = new IntlDateFormatter('IT',
+  IntlDateFormatter::FULL,
+  IntlDateFormatter::FULL
+);
+$fmt->setPattern('EEEE d LLL yyyy');
+echo $fmt->format(time());// display venerdì 15 apr 2022
 }
 /*--------------------------------------------------------------*/
 /* Function for  Readable date time
