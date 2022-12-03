@@ -115,7 +115,7 @@ if (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN') {
     $format = preg_replace('#(?<!%)((?:%%)*)%e#', '\1%#d', $format);
 }
 
-echo date($format);
+echo gmdate($format);
 }
 /*--------------------------------------------------------------*/
 /* Function for  Readable date time
