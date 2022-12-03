@@ -14,7 +14,7 @@ $products = join_product_table();
     <div class="panel panel-default">
       <div class="panel-heading clearfix">
         <div class="pull-right">
-          <a href="add_product.php" class="btn btn-primary">Agregar Producto</a>
+          <a data-cy="add-product" href="add_product.php" class="btn btn-primary">Agregar Producto</a>
         </div>
       </div>
       <div class="panel-body">

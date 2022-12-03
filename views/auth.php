@@ -16,11 +16,11 @@ if (empty($errors)) {
     redirect('product.php', false);
   } else {
     $session->msg("d", "Nombre de usuario y/o contraseña incorrecto.");
-    redirect('index.php', false);
+    redirect('../index.php', false);
   }
 } else {
   $session->msg("d", $errors);
-  redirect('index.php', false);
+  redirect('../index.php', false);
 }
 
 ?>

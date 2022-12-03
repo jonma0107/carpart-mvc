@@ -16,14 +16,14 @@ if ($session->isUserLoggedIn(true)) {
       <img src="assets/images/logo-w.png" alt="logo-w">
     </div>
     <?php echo display_msg($msg); ?>
-    <form method="post" action="views/auth.php" class="clearfix">
+    <form data-cy="form-login" method="post" action="views/auth.php" class="clearfix">
       <div class="form-group">
         <label for="username" class="control-label">Usuario</label>
-        <input type="name" class="form-control" name="username" placeholder="Usario">
+        <input data-cy="user" type="name" class="form-control" name="username" placeholder="Usario">
       </div>
       <div class="form-group">
         <label for="Password" class="control-label">Contraseña</label>
-        <input type="password" name="password" class="form-control" placeholder="Contraseña">
+        <input data-cy="pass" type="password" name="password" class="form-control" placeholder="Contraseña">
       </div>
       <div class="form-group">
         <!-- <img src="assets/images/logo.png" alt="logo" class="img_logo"> -->
