@@ -111,7 +111,7 @@ function make_date()
   IntlDateFormatter::FULL
 );
 $fmt->setPattern("yyyy-MM-dd HH:mm:ss");
-echo $fmt->format(DateTime());
+echo $fmt->format(strftime());
 }
 /*--------------------------------------------------------------*/
 /* Function for  Readable date time
