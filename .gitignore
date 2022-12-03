@@ -53,3 +53,7 @@ Thumbs.db
 # Allure Report
 allure-results/
 allure-report/
+
+#readme
+*.md
+*.org
