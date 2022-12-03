@@ -102,9 +102,20 @@ function read_date($str)
 /*--------------------------------------------------------------*/
 function make_date()
 {
-  return date("%Y-%m-%d %H:%M:%S", time());
+  // return date("%Y-%m-%d %H:%M:%S", time());
   // return gmdate("d/m/Y  g:i a");
   // return strftime("%Y-%m-%d %H:%M:%S", time());
+
+  // Jan 1: results in: '%e%1%' (%%, e, %%, %e, %%)
+$format = '%%e%%%e%%';
+
+// Check for Windows to find and replace the %e
+// modifier correctly
+if (strtoupper(substr(PHP_OS, 0, 3)) == 'WIN') {
+    $format = preg_replace('#(?<!%)((?:%%)*)%e#', '\1%#d', $format);
+}
+
+echo strftime($format);
 }
 /*--------------------------------------------------------------*/
 /* Function for  Readable date time
