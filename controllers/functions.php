@@ -106,12 +106,12 @@ function make_date()
   // return gmdate("d/m/Y  g:i a");
   // return strftime("%Y-%m-%d %H:%M:%S", time());
 
-  $fmt = new IntlDateFormatter('MX',
+  $fmt = new IntlDateFormatter('CO',
   IntlDateFormatter::FULL,
   IntlDateFormatter::FULL
 );
 $fmt->setPattern("yyyy-MM-dd HH:mm:ss");
-echo $fmt->format(time());// display venerdì 15 apr 2022
+echo $fmt->format(date());// display venerdì 15 apr 2022
 }
 /*--------------------------------------------------------------*/
 /* Function for  Readable date time
