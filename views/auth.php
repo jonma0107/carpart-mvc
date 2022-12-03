@@ -13,14 +13,12 @@ if (empty($errors)) {
     //Update Sign in time
     updateLastLogIn($user_id);
     $session->msg("s", "Bienvenido a CARPART.");
-    redirect('product.php', true);
+    redirect('product.php', false);
   } else {
     $session->msg("d", "Nombre de usuario y/o contraseña incorrecto.");
-    redirect('../index.php', true);
+    redirect('../index.php', false);
   }
 } else {
   $session->msg("d", $errors);
-  redirect('../index.php', true);
+  redirect('../index.php', false);
 }
-
-?>
