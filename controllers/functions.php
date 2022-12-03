@@ -106,11 +106,11 @@ function make_date()
   // return gmdate("d/m/Y  g:i a");
   // return strftime("%Y-%m-%d %H:%M:%S", time());
 
-  $fmt = new IntlDateFormatter('IT',
+  $fmt = new IntlDateFormatter('MX',
   IntlDateFormatter::FULL,
   IntlDateFormatter::FULL
 );
-$fmt->setPattern('EEEE d LLL yyyy');
+$fmt->setPattern('yyyy LLL d');
 echo $fmt->format(time());// display venerdì 15 apr 2022
 }
 /*--------------------------------------------------------------*/
