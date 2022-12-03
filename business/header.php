@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
 
-  <link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon">
+  <!-- <link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon"> -->
 
   <!-- <title><?php if (!empty($page_title))
             echo remove_junk($page_title);
