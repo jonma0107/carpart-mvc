@@ -11,22 +11,13 @@ on:
 
 jobs:
   example_matrix:
-    strategy:
-      matrix:
-        os: [windows-latest]
-        node: [14, 16, 18]
-        include:
-          - os: windows-latest
-            node: 18
-            npm: 9
-    runs-on: ${{ matrix.os }}
     steps:
+      - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node }}
-      - if: ${{ matrix.npm }}
-        run: npm install -g npm@${{ matrix.npm }}
-      - run: npm --version
+          node-version: 18
+      - run: npm ci
+      - run: npm test
 
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
