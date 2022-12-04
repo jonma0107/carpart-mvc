@@ -57,3 +57,4 @@ allure-report/
 #readme
 *.md
 *.org
+*.json
