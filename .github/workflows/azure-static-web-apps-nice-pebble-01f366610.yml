@@ -13,7 +13,7 @@ jobs:
   example_matrix:
     strategy:
       matrix:
-        os: [windows-latest, ubuntu-latest]
+        os: [windows-latest]
         node: [14, 16, 18]
         include:
           - os: windows-latest
