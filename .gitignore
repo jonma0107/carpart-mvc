@@ -58,3 +58,6 @@ allure-report/
 *.md
 *.org
 *.json
+
+#files
+cypress.config.js
