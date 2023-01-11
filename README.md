@@ -6,7 +6,7 @@ Se organiza implementando el Patrón de Diseño MVC. Base de datos alojada en el
 
 <div align="center">
 
-![image](https://user-images.githubusercontent.com/53632260/211884659-8b6a9797-ec85-45b6-8646-d66e01ca6f73.png)
+![image](https://user-images.githubusercontent.com/53632260/211885148-29b61597-b9b7-49da-ba0a-b5b60cda8240.png)
 
 </div>
 
