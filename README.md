@@ -3,3 +3,10 @@ Se organiza implementando el Patrón de Diseño MVC. Base de datos alojada en el
 
 ![image](https://user-images.githubusercontent.com/53632260/202060571-cff8ddbe-0c31-4494-9e17-408462adfb37.png)-->
 + [Plan Maestro de Pruebas de Software](plan_maestro_de_pruebas.pdf)
+
+<div align="center">
+
+![image](https://user-images.githubusercontent.com/53632260/211884659-8b6a9797-ec85-45b6-8646-d66e01ca6f73.png)
+
+</div>
+
