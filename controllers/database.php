@@ -21,7 +21,7 @@ class MySqli_DB
     if (!$this->con) {
       die(" Database connection failed:" . mysqli_connect_error());
     } else {
-      $select_db = $this->con->select_db('railway');
+      $select_db = $this->con->select_db('carpart_project');
       if (!$select_db) {
         die("Failed to Select Database" . mysqli_connect_error());
       }
