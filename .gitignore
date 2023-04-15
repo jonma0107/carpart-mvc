@@ -57,7 +57,8 @@ allure-report/
 #readme
 *.md
 *.org
-*.json
+#*.json
 
 #files
-*cypress.config.js
+cypress.config.js
+package-lock.json
