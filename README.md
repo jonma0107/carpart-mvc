@@ -1,7 +1,7 @@
-# carpart-mvc-2022
-Se organiza implementando el Patrón de Diseño MVC. Base de datos alojada en el host de Rialway. Código de la aplicación alojado en GitHub. Desde el servicio de Heroku se hace la conexión a GitHub y a Rialway para su despliegue en producción. Para realizar pruebas se puede ingresar con las credenciales: usuario: admin y contraseña: admin para conocer el rol del administrador, o usuario: user y contraseña: user para conocer el rol del vendedor. 
+# carpart
+Es un sistema de información que permite gestionar el inventario y venta de repuestos de automovil, supliendo la necesidad del cliente de evitar la pérdida de repuestos y eventuales ventas, es una aplicación creada para uso interno de la empresa. En desarrollo de la aplicación se implementa el Patrón de Diseño MVC. Base de datos alojada en el gestor de base de datos del servidor. Código y archivos de la aplicación alojados en un servidor privado. Para realizar pruebas unitarias se puede ingresando con las siguientes credenciales: usuario: admin - contraseña: admin. De esta manera también se pueden conocer el funcionamiento de cada módulo y el rol de cada usuario según manual técnico.
 
-![image](https://user-images.githubusercontent.com/53632260/202060571-cff8ddbe-0c31-4494-9e17-408462adfb37.png)
+![image](https://i.ibb.co/2csSvrZ/part-black-1920.jpg)
 
 <!--+ [Plan Maestro de Pruebas de Software](plan_maestro_de_pruebas.pdf)
 
