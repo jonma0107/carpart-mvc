@@ -1,7 +1,13 @@
-# carpart
+<div align="center">
+# CARPART
+</div>
 Es un sistema de información que permite gestionar el inventario y venta de repuestos de automovil, supliendo la necesidad del cliente de evitar la pérdida de repuestos y eventuales ventas, es una aplicación creada para uso interno de la empresa. En desarrollo de la aplicación se implementa el Patrón de Diseño MVC. Base de datos alojada en el gestor de base de datos del servidor. Código y archivos de la aplicación alojados en un servidor privado. Para realizar pruebas unitarias se puede ingresando con las siguientes credenciales: usuario: admin - contraseña: admin. De esta manera también se pueden conocer el funcionamiento de cada módulo y el rol de cada usuario según manual técnico.
 
+<div align="center">
+
 ![image](https://i.ibb.co/2csSvrZ/part-black-1920.jpg)
+
+</div>
 
 <!--+ [Plan Maestro de Pruebas de Software](plan_maestro_de_pruebas.pdf)
 
